@@ -1,0 +1,24 @@
+The assignment is to train with four hidden layers, each having
+1,024 nodes.  The activation function will be ReLU for the top two
+layers, and linear for the bottom two layers (these lowest layer
+receives the inputs).  
+We shall consider four datasets: MNIST fashion,
+Cifar-10, cat/non-cat, and street view of digits. 
+All groups will train
+with 1,000 minibatches of size 128 for a total of 128,000 observations.
+
+      The experiment will compare CNNs to regular NNs.  Teams doing CNNs
+should use the kernel shown on slide 4 of dl6.pdf (which will be posted
+later today).  You will also want to use zero padding, as discussed on
+slide 14.
+
+
+If 4, use regular NN with the street view of digits data.
+
+
+
+Some of the SAMSI postdocs created useful notebooks and slides that may help you do some of the homework.   It is at
+https://github.com/vicgalle/samsi-deep-learning
+They did the IMDB task using LSTM (and also a transformer model, which are relatively new and faster).  There are also some slides showing how to use Google Colab, so you can get free access to a GPU and run the notebooks.
+
+https://jakevdp.github.io/PythonDataScienceHandbook/
